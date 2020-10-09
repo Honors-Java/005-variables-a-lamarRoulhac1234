@@ -1,5 +1,14 @@
+int xPos1 = 70;
+int yPos1 = 225;
+int xPos2 = 225;
+int yPos2 = 75;
+int width = 100;
+int height = 100;
+
+
+
 void setup() {
-	size(500, 500);
+	size(300, 300);
 }
 
 void draw() {
@@ -19,7 +28,10 @@ void draw() {
   stroke(0);
   fill(175);
 
-
+  ellipse(xPos1, yPos2, width, height);
+  ellipse(xPos2, yPos2, width, height);
+  ellipse(xPos1, yPos1, width, height);
+  ellipse(xPos2, yPos1, width, height);
   
  
 }
